@@ -14,7 +14,7 @@ const getLocalStorage = () => {
   if (darkMode) {
     return JSON.parse(localStorage.getItem('darkMode'))
   } else {
-    return
+    return 'lightMode'
   }
 }
 
