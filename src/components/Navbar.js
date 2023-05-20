@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <Wrapper className='section-center'>
-        <h3>search github user</h3>
+        <h4>search github user</h4>
         <UserInfo />
       </Wrapper>
     </div>
@@ -21,11 +21,11 @@ const Wrapper = styled.nav`
   border-bottom-right-radius: var(--radius);
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 
   h4 {
-    margin-bottom: 0;
     font-weight: 400;
+    padding-top: 1rem;
   }
 `
 

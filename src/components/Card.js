@@ -52,6 +52,7 @@ const Card = () => {
 
 const Wrapper = styled.article`
   background: var(--clr-white);
+  width: 100%;
   padding: 1.5rem 2rem;
   border-top-right-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
