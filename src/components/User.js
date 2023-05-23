@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   display: grid;
   gap: 3rem 2rem;
   grid-template-columns: 1fr 1fr;
-
+backgrond:red;
   @media (width<=850px) {
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   }
